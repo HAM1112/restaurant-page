@@ -1,0 +1,65 @@
+@font-face {
+    font-family: title-font;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("../img/pizzabackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header{
+    background-color: #2C3639;    
+    font-family: title-font;
+    text-align: center;
+}
+
+.header > .title{
+   
+    padding: 25px;
+    font-size: 50px;
+    color: #A27B5C;
+    font-weight: bolder;
+}
+
+.header > .navbar{
+    margin: 0px 20%;
+    color: #DCD7C9;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar > div{
+    padding: 30px;
+    width: 10vw;
+}
+
+.navbar > div:hover{
+    background-color: #3F4E4F;
+}
+
+.home{
+    height: 100vh;
+    margin: 0px;
+}
+
+.home > div{
+    margin: 30px 20%;
+    background-color: rgb(63, 78, 79, 0.9);
+    color: #DCD7C9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+}
