@@ -1,1 +1,2 @@
-console.log("helo my name is hamdan salih");
+
+const contents = document.getElementById('content')

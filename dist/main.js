@@ -1,1 +1,1 @@
-console.log("helo my name is hamdan salih");
+document.getElementById("content");
