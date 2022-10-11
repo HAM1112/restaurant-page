@@ -1,7 +1,6 @@
 
 
 const renderHeader = ()=>{
-    console.log('hearder rendering');
     const contents = document.getElementById('content')
     
     

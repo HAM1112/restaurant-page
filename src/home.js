@@ -1,6 +1,5 @@
 
 const homePageContent = ()=>{
-    console.log("hello");
     const contents = document.getElementById('content')
     const HomePageContent = document.createElement('div')
     HomePageContent.className = "home"
