@@ -17,8 +17,7 @@ const renderContactPage = ()=>{
     contactContent.innerHTML = `Github : https://github.com/HAM1112<br><br>
                                 Phone : (000)-000-0000<br><br>
                                 Address : Holden Crater, Margaritifer Sinus, Mars`
-
-    
+                                
     contactDiv.appendChild(contactContent)
 
     contents.appendChild(contact)

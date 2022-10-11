@@ -15,7 +15,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .header{
@@ -37,13 +36,15 @@ body{
     color: #DCD7C9;
     font-size: 30px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .navbar > div{
     padding: 30px;
     width: 10vw;
+}
+.selected{
+    color: #A27B5C;
 }
 
 .navbar > div:hover{
@@ -58,7 +59,6 @@ body{
 .home > div, .contact > div{
     margin: 30px auto;
     max-width: 25%;
-
     background-color: rgb(63, 78, 79, 0.9);
     color: #DCD7C9;
     text-align: center;
@@ -74,7 +74,6 @@ body{
     background-color: rgb(63, 78, 79, 0.9);
     margin: 30px auto;
     max-width: 55%;
-
 }
 
 .menu > div > img{

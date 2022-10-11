@@ -10,6 +10,7 @@ const render = ()=>{
         contents.removeChild(removeContent)
         removeContent = contents.childNodes[1]
     }
+
 }
 
 const checkId = (item) => {
