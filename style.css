@@ -55,7 +55,7 @@ body{
     margin: 0px;
 }
 
-.home > div{
+.home > div, .contact > div{
     margin: 30px auto;
     max-width: 25%;
 
@@ -93,4 +93,8 @@ body{
     font-weight: bolder;
     font-size: larger;
     vertical-align: bottom;
+}
+
+.contact p{
+    padding: 15px;
 }
