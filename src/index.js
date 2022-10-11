@@ -1,21 +1,14 @@
 
 import { renderHeader } from "./header";
 import {homePageContent} from "./home"
+import {renderMenuPage} from "./menu"
 
 
 
 
 renderHeader()
-//homePageContent()
-
-
-const tabs = [
-    {
-        id: "menu",
-        render: homePageContent(), 
-    }
-]
-
+homePageContent()
+renderMenuPage()
 
 
 
