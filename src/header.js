@@ -18,14 +18,17 @@ const renderHeader = ()=>{
     
     const homeNavbar = document.createElement('div')
     homeNavbar.innerHTML = "Home"
+    homeNavbar.setAttribute('id','home')
     navbar.appendChild(homeNavbar)
     
     const menuNavbar = document.createElement('div')
     menuNavbar.innerHTML = "Menu"
+    menuNavbar.setAttribute('id','menu')
     navbar.appendChild(menuNavbar)
     
     const contactNavbar = document.createElement('div')
     contactNavbar.innerHTML = "Contact"
+    contactNavbar.setAttribute('id','contact')
     navbar.appendChild(contactNavbar)
     
     contents.appendChild(header)

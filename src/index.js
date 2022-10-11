@@ -1,23 +1,23 @@
 
 import { renderHeader } from "./header";
-import {test} from "./home"
+import {homePageContent} from "./home"
 
 
 
 
 renderHeader()
-test()
-
-const contents = document.getElementById('content')
-const HomePageContent = document.createElement('div')
-HomePageContent.innerHTML = "helo"
-
-contents.appendChild(HomePageContent)
+//homePageContent()
 
 
+const tabs = [
+    {
+        id: "menu",
+        render: homePageContent(), 
+    }
+]
 
 
 
-// const tabs =[
-//     {id: men}
-// ]
+
+
+
