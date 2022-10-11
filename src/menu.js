@@ -32,7 +32,6 @@ const contents = document.getElementById('content')
 const renderMenuPage = ()=>{
     pizzas.forEach(pizza => {
         
-        console.log(pizza.image);
 
         const menu = document.createElement('div');
         menu.className = "menu"
