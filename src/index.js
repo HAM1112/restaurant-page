@@ -1,8 +1,7 @@
 
 import {renderHeader} from "./header";
 import {homePageContent} from "./home"
-import {renderMenuPage} from "./menu"
-import {renderContactPage} from "./contact"
+import{render, checkId} from "./helper"
  
 
 
@@ -13,15 +12,6 @@ homePageContent()
 
 
 
-function render(){
-    const contents = document.getElementById('content')
-    let removeContent = contents.childNodes[1]
-    while(removeContent){
-        contents.removeChild(removeContent)
-        removeContent = contents.childNodes[1]
-    }
-}
-
 
 
 const buttons = ["home","menu","contact"]
@@ -31,16 +21,11 @@ buttons.forEach(btn => {
     button.addEventListener('click',()=>{
         render()
         checkId(btn)
-        console.log(btn);
     })
 });
 
 
-function checkId(item) {
-    if(item === "home"){return homePageContent()}
-    if(item === "menu"){return renderMenuPage()}
-    if(item === "contact"){return renderContactPage()}
-}
+
 
 // const homeBtn = document.getElementById('home')
 // homeBtn.addEventListener('click', ()=>{
