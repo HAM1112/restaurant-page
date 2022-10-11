@@ -53,14 +53,10 @@ body{
 .home{
     height: 100vh;
     margin: 0px;
-    
-
 }
 
 .home > div{
     margin: 30px auto;
-
-
     max-width: 25%;
 
     background-color: rgb(63, 78, 79, 0.9);
@@ -68,4 +64,33 @@ body{
     text-align: center;
     padding: 20px;
     border-radius: 25px;
+}
+
+.menu > div{
+    border-radius: 10px;
+    display: flex;
+    color: #DCD7C9;
+    padding: 30px;
+    background-color: rgb(63, 78, 79, 0.9);
+    margin: 30px auto;
+    max-width: 55%;
+
+}
+
+.menu > div > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.menu > div > div{
+    padding: 10px;  
+}
+.menu h2{
+    color: #A27B5C;
+}
+.menu span{
+    font-weight: bolder;
+    font-size: larger;
+    vertical-align: bottom;
 }
