@@ -4,25 +4,25 @@
             name: "BBQ Pizza",
             caption: "One must have a BBQ skewer in both hands to have a well-balanced diet.",
             price: "4.8",
-            image: "../img/chickenpizza.jpg"
+            image: "./img/chickenpizza.jpg"
         },
         {
             name: "BBQ Pizza",
             caption: "One must have a BBQ skewer in both hands to have a well-balanced diet.",
             price: "4.8",
-            image: "../img/chickenpizza.jpg"
+            image: "./img/chickenpizza.jpg"
         },
         {
             name: "BBQ Pizza",
             caption: "One must have a BBQ skewer in both hands to have a well-balanced diet.",
             price: "4.8",
-            image: "../img/chickenpizza.jpg"
+            image: "./img/chickenpizza.jpg"
         },
         {
             name: "BBQ Pizza",
             caption: "One must have a BBQ skewer in both hands to have a well-balanced diet.",
             price: "4.8",
-            image: "../img/chickenpizza.jpg"
+            image: "./img/chickenpizza.jpg"
         },
     ]
 

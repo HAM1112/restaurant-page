@@ -9,12 +9,15 @@ homePageContent()
 
 const buttons = ["home","menu","contact"]
 
-buttons.forEach(btn => {
+buttons.forEach((btn, index) => {
 
 
     let button = document.getElementById(btn)
     button.addEventListener('click',()=>{
-        //button.classList.add('selected')
+        buttons.forEach(btnA =>{
+            document.getElementById(btnA).classList.remove('selected');
+        })
+        button.classList.add("selected")
         render()
         checkId(btn)
     })
