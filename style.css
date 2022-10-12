@@ -1,6 +1,6 @@
 @font-face {
     font-family: title-font;
-    src: url(../fonts/Pacifico-Regular.ttf);
+    src: url(./fonts/Pacifico-Regular.ttf);
 }
 
 
@@ -11,7 +11,7 @@
 
 
 body{
-    background-image: url("../img/pizzabackground.jpg");
+    background-image: url("./img/pizzabackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
